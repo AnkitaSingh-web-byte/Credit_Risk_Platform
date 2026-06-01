@@ -1,0 +1,41 @@
+# =============================================================================
+# Docker ignore - Credit Risk Platform
+# =============================================================================
+
+.git
+.gitignore
+
+__pycache__/
+*.pyc
+
+.env
+.env.local
+.env.production
+
+venv/
+.venv/
+env/
+
+tests/
+
+*.md
+!README.md
+
+.idea/
+.vscode/
+
+.pytest_cache/
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+*.egg-info/
+dist/
+build/
+
+logs/
+
+# Optional - exclude EDA notebooks and docs
+notebooks/
+documents/

@@ -1,0 +1,6 @@
+{
+  "n_features": 122,
+  "n_estimators": 500,
+  "best_iteration": 293,
+  "best_score": 0.7603785307153968
+}
